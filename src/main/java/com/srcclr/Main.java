@@ -23,7 +23,7 @@ public class Main {
 
     try {
       new MultipartStream(new ByteArrayInputStream(bytes), bytes);
-    } catch (IOException ignored) {
+    } catch (Exception ignored) {
     }
 
     new XMLSignatureInput(bytes).addNodeFilter(null);
