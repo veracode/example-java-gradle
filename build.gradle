@@ -1,7 +1,25 @@
 group 'com.srcclr'
 version '1.0-SNAPSHOT'
 
+buildscript {
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+  dependencies {
+     classpath "gradle.plugin.com.srcclr:gradle:2.2.7"
+  }
+}
+
+apply plugin: 'srcclr'
+
 apply plugin: 'java'
+
+
+srcclr {
+  apiToken = "YOUR_TOKEN_HERE" // required field
+}
 
 sourceCompatibility = 1.5
 
