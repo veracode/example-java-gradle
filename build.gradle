@@ -1,7 +1,19 @@
+
+plugins {
+ id "com.srcclr.gradle" version "2.2.7"
+}
+
 group 'com.srcclr'
 version '1.0-SNAPSHOT'
 
+apply plugin: 'srcclr'
+
 apply plugin: 'java'
+
+
+srcclr {
+  apiToken = "YOUR_TOKEN_HERE" // required field
+}
 
 sourceCompatibility = 1.5
 
