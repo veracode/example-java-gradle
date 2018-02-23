@@ -1,6 +1,6 @@
 # [:] Example Gradle Project
 
-An example maven project to demonstrate [srcclr](https://www.srcclr.com) scans.
+An example gradle project to demonstrate [srcclr](https://www.srcclr.com) scans.
 
 ## Try me!
 
