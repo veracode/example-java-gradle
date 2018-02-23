@@ -18,7 +18,7 @@ apply plugin: 'java'
 
 
 srcclr {
-  apiToken = "YOUR_TOKEN_HERE" // required field
+    failureLevel = "NEVER"
 }
 
 sourceCompatibility = 1.5
