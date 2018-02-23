@@ -1,6 +1,6 @@
 
 plugins {
- id "com.srcclr.gradle" version "2.2.7"
+ id "com.srcclr.gradle" version "2.2.21"
 }
 
 group 'com.srcclr'
