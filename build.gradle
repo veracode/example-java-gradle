@@ -8,18 +8,13 @@ buildscript {
     }
   }
   dependencies {
-     classpath "gradle.plugin.com.srcclr:gradle:2.2.21"
+     classpath "gradle.plugin.com.srcclr:gradle:3.0.0"
   }
 }
 
 apply plugin: 'srcclr'
 
 apply plugin: 'java'
-
-
-srcclr {
-    failureLevel = "NEVER"
-}
 
 sourceCompatibility = 1.5
 
