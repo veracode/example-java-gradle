@@ -1,5 +1,11 @@
+plugins {
+    id "com.srcclr.gradle" version "3.1.9"
+}
+
 group 'com.srcclr'
 version '1.0-SNAPSHOT'
+
+apply plugin: 'srcclr'
 
 apply plugin: 'java'
 
